@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.topimage{
+    max-width: 250px;
+    min-width: 150px;
+    height: auto;
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+
+.topimage img{
+    width: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-nav ul li{
+    display: inline-block;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.page-nav ul li a{
+    text-decoration: none;
+    color: #083E9E;
+    font-size: 16px;
+}
+
+.page-nav ul li:nth-child(6){
+    border: 1px solid #414851;
+    margin-right: 5rem;
+    margin-top: 2rem;
+}
+
+.estimate{
+    color: #083E9E;
+    font-size: 40px;
+    font-style: semibold;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 5rem;
+    line-height: 46px;
+    margin-top: 5rem;
+}
+
+.form-wrapper{
+    display: flex;
+
+}
+
+form{
+    width: 390px;
+    /* min-width: 100px;
+    height: auto; */
+}
+
+label{
+    display: block;
+    Font-Family: 'Josefin Sans', sans-serif;
+    Font-Style: Bold;
+    Font-Size: 24px;
+    color: #4A5568;
+    margin-top: 1rem;
+}
+
+input, select{
+    background: rgba(0, 136, 204, 0.08);
+    border: none;
+    padding: 15px;
+    width: 100%;
+}
+
+select{
+    margin-top: 1rem;
+}
+
+.center{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.center h3{
+    color: #083E9E;
+    font-size: 24px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.center h2{
+    color: #000000;
+    font-size: 36px;
+    margin-top: 0.6rem;
+}
+
+.work{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #083E9E;
+    font-size: 40px;
+}
+
+.mid-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-image{
+    max-width: 400px;
+    min-width: 100px;
+    height: auto;
+}
+
+.second-image img{
+    width: 100%;
+    
+}
+
+.text h3{
+    color: #4A5568;
+    font-size: 24px;
+}
+
+.text button{
+    background-color: #30C57B;
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 10px;
+    margin-top: 3rem;
+}
+.secured{
+    text-align: center;
+    margin-top: 7rem;
+}
+
+.secured h2{
+    color: #083E9E;
+    font-size: 30px;
+}
+.secured h5{
+    color: #4A5568;
+    font-size: 16px;
+}
+
+.mybuttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.mybuttons button{
+    background: #144499;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.subbtn{
+    max-width: 200px;
+    margin: 1rem;
+    min-width: 100px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.subbtn img{
+    width: 100%;
+}
+
+.google{
+    margin-left: 0.5rem;
+}
+
+.logoimage{
+    max-width: 250px;
+    min-width: 100px;
+    height: auto;
+}
+
+.logoimage img{
+    width: 100%;
+}
+
+
+.footer-wrapper{
+    display: flex;
+    align-items: center;
+    padding-bottom: 2rem;
+    justify-content: space-around;
+    margin-top: 4rem;
+    background: rgba(0, 136, 204, 0.04);
+}
+.footer-wrapper h5{
+    font-family:'Josefin Sans', sans-serif ;
+
+}
+
+.rightsided ul li a{
+    text-decoration: none;
+    color: gray;
+}
+.rightsided ul li a:hover{
+    color: seagreen;
+}
+
+.company{
+    margin-right: 2rem;
+}
+
+.company ul li a{
+    text-decoration: none;
+    color: gray;
+}
+.company ul li a:hover{
+    color: seagreen;
+}
+
+.social-icons i{
+    cursor: pointer;
+}
+
+.social-icons i:nth-child(1){
+    color: #3B5998;
+}
+.social-icons i:nth-child(2){
+    color: #55ACEE;
+}
+.social-icons i:nth-child(3){
+    color:#FF543E ;
+    
+    /* #C837AB  100%; */
+}
